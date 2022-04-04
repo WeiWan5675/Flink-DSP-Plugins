@@ -1,0 +1,3 @@
+com\weiwan\dsp\kafka\output\KafkaOutputPlugin.class
+com\weiwan\dsp\kafka\config\KafkaPluginConfig.class
+com\weiwan\dsp\kafka\input\KafkaInputPlugin.class

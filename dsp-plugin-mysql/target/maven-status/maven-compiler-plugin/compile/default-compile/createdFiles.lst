@@ -1,0 +1,5 @@
+com\weiwan\dsp\mysql\config\MysqlPluginConfig.class
+com\weiwan\dsp\mysql\config\MysqlOutputPluginConfig.class
+com\weiwan\dsp\mysql\output\MysqlTableOutput.class
+com\weiwan\dsp\mysql\config\MysqlBatchInputConfig.class
+com\weiwan\dsp\mysql\input\MysqlTableInput.class
