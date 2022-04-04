@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.weiwan.dsp</groupId>
-    <artifactId>Flink-Dsp-Plugins</artifactId>
+    <artifactId>Flink-DSP-Plugins</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0</version>
     <name>Flink-Dsp : Plugins</name>
