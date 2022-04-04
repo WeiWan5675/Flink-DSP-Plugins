@@ -14,8 +14,10 @@ import java.util.List;
  * @Description: kafka输入插件
  **/
 public class KafkaInputPlugin extends RichInputPlugin<KafkaPluginConfig> {
+
     @Override
     protected DataRecord read() throws Exception {
+
         return null;
     }
 

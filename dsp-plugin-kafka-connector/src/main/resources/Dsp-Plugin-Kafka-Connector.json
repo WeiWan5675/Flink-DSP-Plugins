@@ -1,0 +1,50 @@
+[
+  {
+    "pluginName": "KafkaConnectorInput",
+    "pluginType": "INPUT",
+    "pluginClass": "com.weiwan.dsp.kafka.connector.input.KafkaInputConnectorPlugin",
+    "pluginDescription": "一个简单的样例输入插件",
+    "pluginConfigs": {
+      "topic": {
+        "key": "topic",
+        "value": "",
+        "type": "java.lang.String",
+        "defaultValue": "",
+        "description": "Kafka消费的Topic",
+        "required": true
+      },
+      "bootstrapServers": {
+        "key": "bootstrapServers",
+        "value": "",
+        "type": "java.lang.String",
+        "defaultValue": "127.0.0.1",
+        "description": "Kafka服务器链接地址",
+        "required": true
+      }
+    }
+  },
+  {
+    "pluginName": "KafkaConnectorOutput",
+    "pluginType": "OUTPUT",
+    "pluginClass": "com.weiwan.dsp.kafka.connector.output.KafkaOutputConnectorPlugin",
+    "pluginDescription": "一个简单的样例输入插件",
+    "pluginConfigs": {
+      "topic": {
+        "key": "topic",
+        "value": "",
+        "type": "java.lang.String",
+        "defaultValue": "",
+        "description": "Kafka消费的Topic",
+        "required": true
+      },
+      "bootstrapServers": {
+        "key": "bootstrapServers",
+        "value": "",
+        "type": "java.lang.String",
+        "defaultValue": "127.0.0.1",
+        "description": "Kafka服务器链接地址",
+        "required": true
+      }
+    }
+  }
+]

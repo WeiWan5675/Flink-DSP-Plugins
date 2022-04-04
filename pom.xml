@@ -13,6 +13,7 @@
         <module>dsp-plugin-kafka</module>
         <module>dsp-plugin-mysql</module>
         <module>dsp-extends-plugins</module>
+        <module>dsp-plugin-kafka-connector</module>
     </modules>
 
     <properties>
