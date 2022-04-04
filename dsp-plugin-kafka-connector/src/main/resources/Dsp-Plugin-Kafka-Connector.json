@@ -3,7 +3,7 @@
     "pluginName": "KafkaConnectorInput",
     "pluginType": "INPUT",
     "pluginClass": "com.weiwan.dsp.kafka.connector.input.KafkaInputConnectorPlugin",
-    "pluginDescription": "一个简单的样例输入插件",
+    "pluginDescription": "kafka连接器输入插件",
     "pluginConfigs": {
       "topic": {
         "key": "topic",
@@ -27,7 +27,7 @@
     "pluginName": "KafkaConnectorOutput",
     "pluginType": "OUTPUT",
     "pluginClass": "com.weiwan.dsp.kafka.connector.output.KafkaOutputConnectorPlugin",
-    "pluginDescription": "一个简单的样例输入插件",
+    "pluginDescription": "kafka连接器输出插件",
     "pluginConfigs": {
       "topic": {
         "key": "topic",

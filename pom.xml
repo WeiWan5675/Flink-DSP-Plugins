@@ -74,16 +74,19 @@
                 <groupId>com.weiwan.dsp</groupId>
                 <artifactId>dsp-api</artifactId>
                 <version>${dsp.version}</version>
+                <scope>provided</scope>
             </dependency>
             <dependency>
                 <groupId>com.weiwan.dsp</groupId>
                 <artifactId>dsp-core</artifactId>
                 <version>${dsp.version}</version>
+                <scope>provided</scope>
             </dependency>
             <dependency>
                 <groupId>com.weiwan.dsp</groupId>
                 <artifactId>dsp-common</artifactId>
                 <version>${dsp.version}</version>
+                <scope>provided</scope>
             </dependency>
             <!-- flink-start-->
             <dependency>

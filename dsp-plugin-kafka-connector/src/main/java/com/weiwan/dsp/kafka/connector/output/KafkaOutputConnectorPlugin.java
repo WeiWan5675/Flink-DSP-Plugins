@@ -20,8 +20,9 @@ import java.util.Properties;
  * @Description:
  **/
 public class KafkaOutputConnectorPlugin extends ConnectorOutputPlugin<KafkaConnectorOutputPluginConfig> {
+
     @Override
-    public SinkFunction<DataRecord> getWriterSink(KafkaConnectorOutputPluginConfig kafkaConnectorOutputPluginConfig) {
+    public SinkFunction<DataRecord> getSinkFunction(KafkaConnectorOutputPluginConfig kafkaConnectorOutputPluginConfig) {
         Properties kafkaProperties = kafkaConnectorOutputPluginConfig.getKafkaProperties();
         FlinkKafkaProducer flinkKafkaProducer = new FlinkKafkaProducer(kafkaConnectorOutputPluginConfig.getTopic(), new KafkaSerializationSchema(), kafkaProperties);
         return flinkKafkaProducer;
