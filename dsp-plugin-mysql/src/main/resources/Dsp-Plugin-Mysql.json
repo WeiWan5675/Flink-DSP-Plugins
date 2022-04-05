@@ -1,0 +1,55 @@
+[
+  {
+    "pluginName": "MysqlTableInput",
+    "pluginType": "INPUT",
+    "pluginClass": "com.weiwan.dsp.mysql.input.MysqlTableInput",
+    "pluginDescription": "mysql输入插件",
+    "pluginConfigs": {
+      "jdbc.server": {
+        "key": "jdbc.server",
+        "value": "",
+        "type": "java.lang.String",
+        "defaultValue": "127.0.0.1",
+        "description": "mysql数据库连接url",
+        "required": true
+      },
+      "jdbc.port": {
+        "key": "jdbc.port",
+        "value": "",
+        "type": "java.lang.Integer",
+        "defaultValue": 3306,
+        "description": "mysql数据库连接端口",
+        "required": true
+      },
+      "jdbc.username": {
+        "key": "jdbc.username",
+        "value": "",
+        "type": "java.lang.String",
+        "defaultValue": "root",
+        "description": "mysql数据库用户名",
+        "required": true
+      },
+      "jdbc.password": {
+        "key": "jdbc.password",
+        "value": "",
+        "type": "java.lang.String",
+        "description": "mysql数据库密码",
+        "required": true
+      },
+      "jdbc.database": {
+        "key": "jdbc.database",
+        "value": "",
+        "type": "java.lang.String",
+        "description": "mysql数据库",
+        "required": true
+      },
+      "tables": {
+        "key": "tables",
+        "value": "",
+        "type": "java.lang.String",
+        "description": "mysql数据库表",
+        "required": true
+      }
+    }
+  }
+]
