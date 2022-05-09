@@ -1,14 +1,11 @@
 package com.weiwan.dsp.kafka.connector.output;
 
+import com.weiwan.dsp.api.pojo.DataRecord;
 import com.weiwan.dsp.core.plugin.flink.ConnectorOutputPlugin;
-import com.weiwan.dsp.core.pub.DataRecord;
 import com.weiwan.dsp.kafka.connector.config.KafkaConnectorOutputPluginConfig;
-import com.weiwan.dsp.kafka.connector.kafka.KafkaDeserializationSchema;
 import com.weiwan.dsp.kafka.connector.kafka.KafkaSerializationSchema;
-import org.apache.flink.api.common.serialization.SimpleStringSchema;
 import org.apache.flink.streaming.api.functions.sink.SinkFunction;
 import org.apache.flink.streaming.connectors.kafka.FlinkKafkaProducer;
-import org.apache.flink.streaming.connectors.kafka.FlinkKafkaProducer011;
 
 import java.util.Properties;
 

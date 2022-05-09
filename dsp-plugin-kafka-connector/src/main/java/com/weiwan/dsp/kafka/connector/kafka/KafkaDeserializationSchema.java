@@ -1,7 +1,7 @@
 package com.weiwan.dsp.kafka.connector.kafka;
 
 import com.alibaba.fastjson.JSONObject;
-import com.weiwan.dsp.core.pub.DataRecord;
+import com.weiwan.dsp.api.pojo.DataRecord;
 import org.apache.flink.api.common.serialization.DeserializationSchema;
 import org.apache.flink.api.common.typeinfo.TypeInformation;
 

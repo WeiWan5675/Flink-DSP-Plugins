@@ -1,7 +1,7 @@
 package com.weiwan.dsp.mysql.input;
 
+import com.weiwan.dsp.api.pojo.DataRecord;
 import com.weiwan.dsp.core.plugin.RichInputPlugin;
-import com.weiwan.dsp.core.pub.DataRecord;
 import com.weiwan.dsp.mysql.config.MysqlBatchInputConfig;
 
 import java.util.List;

@@ -1,7 +1,7 @@
 package com.weiwan.dsp.kafka.input;
 
+import com.weiwan.dsp.api.pojo.DataRecord;
 import com.weiwan.dsp.core.plugin.RichInputPlugin;
-import com.weiwan.dsp.core.pub.DataRecord;
 import com.weiwan.dsp.kafka.config.KafkaPluginConfig;
 
 import java.util.List;

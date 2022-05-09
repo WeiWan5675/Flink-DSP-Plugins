@@ -1,7 +1,7 @@
 package com.weiwan.dsp.kafka.connector.input;
 
+import com.weiwan.dsp.api.pojo.DataRecord;
 import com.weiwan.dsp.core.plugin.flink.ConnectorInputPlugin;
-import com.weiwan.dsp.core.pub.DataRecord;
 import com.weiwan.dsp.kafka.connector.config.KafkaConnectorInputPluginConfig;
 import com.weiwan.dsp.kafka.connector.kafka.KafkaDeserializationSchema;
 import org.apache.flink.streaming.api.functions.source.SourceFunction;
